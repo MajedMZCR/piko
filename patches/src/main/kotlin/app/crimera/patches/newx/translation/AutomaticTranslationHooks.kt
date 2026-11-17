@@ -369,7 +369,7 @@ private fun patchAutomaticQuoteHeader(path: ResolvedTranslationPath) {
     // The full renderer consumes the same semantic UI state plus Modifier. The read-only renderer
     // lacks Modifier and only emits TranslatedReadOnly; redirect it only for our own states.
     val readOnly = requireExactlyOne("NewX read-only translation header",
-        Fingerprint(definingClass = "Lcom/x/urt/", returnType = "V",
+        Fingerprint(definingClass = "Lcom/x/", returnType = "V",
             filters = listOf(fieldAccess(name = "TranslatedReadOnly"))).scopedMatchAllOrNull().orEmpty()
             .map { it.method }.filter { method ->
                 AccessFlags.STATIC.isSet(method.accessFlags) &&
@@ -384,7 +384,7 @@ private fun patchAutomaticQuoteHeader(path: ResolvedTranslationPath) {
         }
     }.distinctBy { it.toString() })
     val full = requireExactlyOne("NewX interactive translation header",
-        Fingerprint(definingClass = "Lcom/x/urt/items/post/", returnType = "V",
+        Fingerprint(definingClass = "Lcom/x/", returnType = "V",
             filters = listOf(methodCall(smali = header.toString()))).scopedMatchAllOrNull().orEmpty()
             .map { it.method }.filter { method ->
                 AccessFlags.STATIC.isSet(method.accessFlags) &&

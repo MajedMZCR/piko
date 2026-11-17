@@ -11,14 +11,15 @@ import app.crimera.patches.twitter.misc.settings.settingsPatch
 import app.crimera.patches.twitter.utils.Constants.COMPATIBILITY_X
 import app.crimera.patches.twitter.utils.enableSettings
 import app.crimera.patches.twitter.utils.flagSettings
-import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.patch
 
 @Suppress("unused")
 val disableChirpFontPatch =
-    bytecodePatch(
+    patch(
         name = "Disable chirp font",
     ) {
         compatibleWith(COMPATIBILITY_X)
+        category("Old patches")
         dependsOn(featureFlagPatch, settingsPatch)
         execute {
 

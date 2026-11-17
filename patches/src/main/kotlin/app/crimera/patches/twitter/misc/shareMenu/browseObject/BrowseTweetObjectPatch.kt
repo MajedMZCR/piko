@@ -12,14 +12,15 @@ import app.crimera.patches.twitter.misc.shareMenu.hooks.shareMenuButtonInjection
 import app.crimera.patches.twitter.misc.shareMenu.hooks.shareMenuButtonOnClickHook
 import app.crimera.patches.twitter.utils.Constants.COMPATIBILITY_X
 import app.crimera.patches.twitter.utils.versionCheckPatch
-import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.patch
 
 @Suppress("unused")
 val browseObjectPatch =
-    bytecodePatch(
+    patch(
         description = "Adds an option to browse the tweet object in the share menu.",
     ) {
         compatibleWith(COMPATIBILITY_X)
+        category("Old patches")
         dependsOn(settingsPatch, entityGenerator, versionCheckPatch, shareMenuButtonOnClickHook)
 
         execute {

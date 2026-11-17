@@ -14,7 +14,7 @@ import java.util.HashMap;
 
 import app.morphe.extension.crimera.PikoUtils;
 import app.morphe.extension.crimera.sharedPreference.BaseSharedPref;
-import app.morphe.extension.crimera.settings.StringSetting;
+import app.morphe.extension.instagram.settings.StringSetting;
 
 import app.morphe.extension.instagram.constants.Constants;
 
@@ -28,7 +28,7 @@ public class FlagsSharedPref extends BaseSharedPref {
 
     // Static Wrapper Delegates
     public static String getStringPref(StringSetting setting) {
-        return INSTANCE.getString(setting);
+        return INSTANCE.getString(setting.key, setting.defaultValue);
     }
 
     public static Boolean setStringPref(String key, String val) {

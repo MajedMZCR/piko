@@ -47,7 +47,7 @@ private const val FUNCTION0_DESCRIPTOR = "Lkotlin/jvm/functions/Function0;"
  */
 private fun homeNavStateParameterIndex(parameters: List<String>): Int? {
     val callbacks = parameters.filter { it.startsWith(FUNCTION_PREFIX) }
-    if (callbacks.size < 4 || callbacks.any { it != FUNCTION0_DESCRIPTOR }) return null
+    if (callbacks.size < 3 || callbacks.any { it != FUNCTION0_DESCRIPTOR }) return null
     return requireAtMostOne(
         label = "NewX home-nav state parameter",
         candidates =
@@ -201,6 +201,7 @@ val hidePremiumUpsellPatch =
     ) {
         unsupportedOnMount()
         compatibleWith(COMPATIBILITY_NEW_X)
+        category("NewX patches")
 
         val hidePremiumUpsell =
             newXToggle(
