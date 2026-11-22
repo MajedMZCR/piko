@@ -9,15 +9,16 @@ package app.crimera.patches.twitter.misc.customize.font
 import app.crimera.patches.twitter.misc.settings.settingsPatch
 import app.crimera.patches.twitter.utils.Constants.COMPATIBILITY_X
 import app.crimera.patches.twitter.utils.enableSettings
-import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.patch
 
 @Suppress("unused")
 val customFont =
-    bytecodePatch(
+    patch(
         name = "Custom font",
         description = "Customise font style",
     ) {
         compatibleWith(COMPATIBILITY_X)
+        category("Old patches")
         dependsOn(customFontHook, settingsPatch)
 
         execute {

@@ -10,11 +10,7 @@
     <string name="piko_enable_dev_options">Włącz opcje programisty</string>
     <string name="piko_enable_dev_options_desc">Odblokowuje opcje programisty po przytrzymaniu ikony strony głównej</string>
     <string name="piko_directly_open_metaconfig">Bezpośrednio otwieraj MetaConfig</string>
-    <string name="piko_directly_open_metaconfig_desc">Otwiera nadpisania MetaConfig po przytrzymaniu ikony strony głównej (wymaga włączonych opcji programisty)</string>
-    <string name="piko_enable_emp_options">Włącz opcje pracownicze</string>
-    <string name="piko_enable_emp_options_desc">Odblokowuje wszystkie opcje pracownicze używane do testów</string>
-    <string name="piko_allow_user_network_certificate">Zezwalaj na certyfikaty użytkownika</string>
-    <string name="piko_allow_user_network_certificate_desc">Umożliwia aplikacji zaufanie certyfikatom sieciowym zainstalowanym przez użytkownika do testów whitehat</string>
+    <string name="piko_directly_open_metaconfig_desc">Otwiera nadpisania MetaConfig bezpośrednio po przytrzymaniu ikony strony głównej</string>
     <string name="piko_export_dev_overrides">Eksportuj nadpisania</string>
     <string name="piko_import_dev_overrides">Importuj nadpisania</string>
     <string name="piko_import_id_mapping">Importuj pliki mapowania</string>
@@ -35,23 +31,24 @@
     <string name="piko_disable_typing_status">Wyłącz status pisania</string>
     <string name="piko_disable_screenshot_detection">Wyłącz wykrywanie zrzutów ekranu</string>
     <string name="piko_view_dm_anonymously">Czytaj wiadomości anonimowo</string>
+    <string name="piko_mark_as_read_after_reply">Oznaczaj jako przeczytane po odpowiedzi</string>
+    <string name="piko_mark_as_read_after_reply_desc">Oznacza czat jako przeczytany po wysłaniu odpowiedzi, nawet podczas anonimowego przeglądania wiadomości prywatnych lub korzystania ze wszystkich trybów ducha</string>
     <string name="piko_view_dm_anonymously_desc">Gdy ta opcja jest włączona, inni nie widzą, kiedy odczytasz ich wiadomości. Jeśli zarówno to ustawienie, jak i \"Włącz wszystkie tryby ducha\" są wyłączone, zastosowane zostanie ustawienie Instagrama \"Pokaż potwierdzenia odczytu\"</string>
     <string name="piko_turn_on_all_ghost_modes">Włącz wszystkie tryby ducha</string>
     <string name="piko_ghost_modes_on">Tryb ducha: WŁĄCZONY</string>
     <string name="piko_ghost_modes_default">Tryb ducha: DOMYŚLNY</string>
-    <string name="piko_ghost_modes_quick_toggle">Włącz szybki przełącznik trybu ducha</string>
-    <string name="piko_ghost_modes_quick_toggle_desc">Dodaje na pasku akcji czatu przycisk do szybkiego sterowania trybem ducha</string>
     <!-- Distraction-Free Section -->
     <string name="piko_category_distraction_free">Bez rozpraszaczy</string>
     <string name="piko_disable_stories">Wyłącz relacje</string>
     <string name="piko_disable_highlights">Wyłącz wyróżnione relacje</string>
     <string name="piko_disable_explore">Wyłącz sekcję Eksploruj</string>
     <string name="piko_disable_comments">Wyłącz komentarze</string>
-    <string name="piko_limit_following_feed">Ogranicz aktualności do obserwowanych</string>
-    <string name="piko_limit_following_feed_desc">Filtruje aktualności, wyświetlając tylko treści od profili, które obserwujesz</string>
+    <string name="piko_limit_following_feed">Ogranicz stronę główną do obserwowanych</string>
+    <string name="piko_limit_following_feed_desc">Filtruje stronę główną, wyświetlając tylko treści od profili, które obserwujesz</string>
+    <string name="piko_hide_feed_posts">Ukryj posty na stronie głównej</string>
+    <string name="piko_hide_feed_posts_desc">Ukrywa posty w zakładce strony głównej</string>
     <string name="piko_disable_discover_people">Ukryj sugerowane konta</string>
     <string name="piko_focus_lock">Blokada skupienia</string>
-    <string name="piko_focus_lock_desc">Wymuś ustawienia ułatwiające skupienie na określony czas</string>
     <string name="piko_focus_lock_targets">Ustawienia do zablokowania</string>
     <string name="piko_focus_lock_reels_tab">Zakładka Rolki</string>
     <string name="piko_focus_lock_reels_tab_desc">Usuwa zakładkę Rolki z paska nawigacji. Rolki udostępnione przez innych nadal się otwierają.</string>
@@ -93,11 +90,14 @@
     <string name="piko_disable_swipe_to_create">Wyłącz gest tworzenia</string>
     <string name="piko_disable_swipe_to_create_desc">Blokuje otwieranie ekranu tworzenia po przesunięciu w prawo na stronie głównej</string>
     <string name="piko_hide_stories_tray">Ukryj pasek relacji</string>
-    <string name="piko_hide_stories_tray_desc">Ukrywa pasek z relacjami w aktualnościach</string>
+    <string name="piko_hide_stories_tray_desc">Ukrywa pasek z relacjami na stronie głównej</string>
+    <string name="piko_hide_hidden_requests">Ukryj ukryte prośby</string>
+    <string name="piko_hide_hidden_requests_desc">Ukrywa przycisk ukrytych próśb (spamu) na stronie próśb o wiadomość</string>
     <string name="piko_hide_notes_tray">Ukryj pasek notatek</string>
     <string name="piko_hide_notes_tray_desc">Ukrywa pasek notatek w sekcji wiadomości</string>
     <string name="piko_hide_group_creation_button_on_sharesheet">Ukryj przycisk tworzenia grupy w menu udostępniania</string>
     <string name="piko_hide_reels_follow_button">Ukryj przycisk Obserwuj w Rolkach</string>
+    <string name="piko_hide_likes">Ukryj przyciski polubienia</string>
     <string name="piko_hide_share_button">Ukryj przycisk udostępniania</string>
     <string name="piko_hide_save_buttons">Ukryj przyciski zapisu</string>
     <string name="piko_hide_reshare_button">Ukryj przycisk Udostępnij</string>
@@ -112,23 +112,21 @@
     <string name="piko_category_misc">Różne</string>
     <string name="piko_material_you_title">Material You</string>
     <string name="piko_amoled_title">AMOLED</string>
-    <string name="piko_disable_analytics">Wyłącz analitykę</string>
-    <string name="piko_delete_analytics_cache">Usuń pamięć podręczną analityki</string>
-    <string name="piko_disable_analytics_desc">Blokuje wysyłanie danych telemetrycznych na serwery Instagrama/Facebooka</string>
     <string name="piko_follow_back_indicator">Włącz wskaźnik statusu relacji</string>
     <string name="piko_follow_back_indicator_desc">Dodaje etykietę ze statusem \"Obserwuje Cię\" na stronie profilu, a po dotknięciu wyświetla szczegółowe zestawienie statusu relacji</string>
     <string name="piko_fbi_color_indicator">Włącz kolorowy wskaźnik statusu relacji</string>
-    <string name="piko_fbi_color_indicator_desc">Wymaga włączonego wskaźnika statusu relacji</string>
     <string name="piko_fbi_follows_you">Obserwuje Cię</string>
     <string name="piko_fbi_doesnt_follows_you">Nie obserwuje Cię</string>
     <string name="piko_fbi_following_each_other">Obserwujecie się nawzajem</string>
     <string name="piko_friendship_status">Status znajomości</string>
     <string name="piko_follow_list_non_follower_badge">Pokaż nieobserwujących na liście Obserwowani</string>
     <string name="piko_follow_list_non_follower_badge_desc">Dodaje plakietkę do wierszy na twojej liście Obserwowani dla kont, które nie obserwują cię zwrotnie</string>
+    <string name="piko_resume_reels_after_scrolling">Wznawiaj rolki po przewinięciu</string>
+    <string name="piko_resume_reels_after_scrolling_desc">Kontynuuj odtwarzanie rolki od momentu, w którym zostało przerwane, gdy przewiniesz do niej z powrotem</string>
     <string name="piko_improve_image_viewing">Popraw jakość obrazów</string>
     <string name="piko_improve_image_viewing_desc">Pobiera z serwera obrazy w maksymalnej rozdzielczości. Może obniżyć wydajność, zwiększyć rozmiar danych aplikacji lub spowodować przełączenie aplikacji na starszy układ</string>
     <string name="piko_copy_comment">Kopiuj komentarz</string>
-    <string name="piko_copy_comment_desc">Dodaje przycisk pozwalający skopiować treść komentarza pod postami i rolkami</string>
+    <string name="piko_copy_comment_desc">Dodaje przyciski do kopiowania komentarzy i nazw użytkowników ich autorów pod postami oraz rolkami</string>
     <string name="piko_comment_copied_success">Skopiowano komentarz</string>
     <string name="piko_comment_copied_failed">Nie znaleziono tekstu do skopiowania</string>
     <string name="piko_copy_username">Kopiuj nazwę użytkownika</string>
@@ -136,8 +134,6 @@
     <string name="piko_copy_user_id">Kopiuj ID użytkownika</string>
     <string name="piko_copy_bio">Kopiuj biogram</string>
     <string name="piko_view_profile_picture">Wyświetl zdjęcie profilowe</string>
-    <string name="piko_copy_profile_link">Kopiuj link do profilu</string>
-    <string name="piko_share_this_profile">Udostępnij ten profil</string>
     <string name="piko_copy_links_from_bio">Kopiuj linki z biogramu</string>
     <string name="piko_no_links_in_bio">Brak linków w tym biogramie</string>
     <string name="piko_download_profile_picture">Pobierz zdjęcie profilowe</string>
@@ -152,12 +148,32 @@
     <string name="piko_inbox_lock_unlock">Odblokuj</string>
     <string name="piko_inbox_lock_prompt">Odblokuj wiadomości</string>
     <string name="piko_inbox_lock_no_lock">Ustaw blokadę ekranu na urządzeniu, aby korzystać z blokady skrzynki odbiorczej</string>
-    <string name="piko_unlock_plus_benefits">Odblokuj korzyści Plus</string>
-    <string name="piko_unlock_plus_benefits_desc">Odblokowuje funkcje subskrypcji \"Plus\", które są weryfikowane lokalnie. UŻYWAJ NA WŁASNE RYZYKO</string>
+    <string name="piko_hidden_chats">Ukryte czaty</string>
+    <string name="piko_hidden_chats_desc">Dodaje po przytrzymaniu czatu opcję ukrycia, która przenosi go do prywatnej skrzynki odbiorczej, osobnej dla każdego konta.</string>
+    <string name="piko_hidden_chats_hidden">Ukryto czat</string>
+    <string name="piko_hidden_chats_unhidden">Odkryto czat</string>
+    <string name="piko_hidden_chats_opened">Ukryte czaty</string>
+    <string name="piko_hidden_chats_closed">Powrót do skrzynki odbiorczej</string>
+    <string name="piko_hidden_chats_mute">Wycisz ukryte czaty</string>
+    <string name="piko_hidden_chats_mute_desc">Nie pokazuj powiadomień o wiadomościach z ukrytych czatów</string>
+    <string name="piko_hidden_chats_taps">Liczba dotknięć otwierająca ukryte czaty</string>
+    <string name="piko_hidden_chats_taps_desc">Dotknij przycisku wiadomości tyle razy z rzędu, aby przełączyć się między skrzynką odbiorczą a ukrytymi czatami</string>
     <!-- DM Section -->
     <string name="piko_category_dm">Wiadomości prywatne</string>
+    <string name="piko_disable_disappearing_messages_gesture">Wyłącz gest włączania znikających wiadomości</string>
+    <string name="piko_disable_disappearing_messages_gesture_desc">Zapobiega włączeniu trybu znikających wiadomości przez przesunięcie palcem w górę na czacie</string>
+    <string name="piko_send_keyboard_gifs">Wysyłaj GIF-y z klawiatury</string>
+    <string name="piko_send_keyboard_gifs_desc">Wysyła GIF-y wybrane z poziomu klawiatury jako animowane obrazy, zamiast wyświetlać komunikat \"Dotknij ikony naklejki, aby znaleźć i wysłać GIF-y\"</string>
     <string name="piko_unlimited_replays">Zablokuj znikanie multimediów</string>
     <string name="piko_unlimited_replays_desc">Zmienia znikające zdjęcia i filmy na widoczne na stałe</string>
+    <string name="piko_ephemeral_caption">Pokaż tryb otrzymania znikających multimediów</string>
+    <string name="piko_ephemeral_caption_desc">Dodaje pod zdjęciami i filmami wysłanymi jako znikające multimedia wiersz z informacją o sposobie ich wysłania oraz czasie dostępności</string>
+    <string name="piko_ephemeral_received_once">Otrzymano do jednorazowego wyświetlenia</string>
+    <string name="piko_ephemeral_received_twice">Otrzymano do dwukrotnego wyświetlenia</string>
+    <string name="piko_ephemeral_received_chat">Otrzymano z zachowaniem na czacie</string>
+    <string name="piko_ephemeral_received_unknown">Oryginalny tryb wyświetlania nieznany</string>
+    <string name="piko_ephemeral_available_until">Dostępne do %s</string>
+    <string name="piko_ephemeral_expired">Wygasło</string>
     <string name="piko_enable_mark_chat_as_read">Włącz opcję oznaczania czatu jako przeczytanego</string>
     <string name="piko_enable_mark_chat_as_read_desc">Dodaje opcję oznaczenia czatu jako przeczytanego po jego przytrzymaniu. Gdy oznaczysz czat jako przeczytany, inni zobaczą, że ich wiadomości zostały odczytane, nawet jeśli włączono \"Czytaj wiadomości anonimowo\"</string>
     <!-- Story Section -->
@@ -176,20 +192,42 @@
     <string name="piko_disable_story_flipping_desc">Blokuje automatyczne przejście do następnej relacji po zakończeniu obecnej</string>
     <string name="piko_loop_story">Zapętl relację</string>
     <string name="piko_loop_story_desc">Odtwarzaj ponownie bieżącą relację po jej zakończeniu</string>
+    <string name="piko_hide_story_follow_button">Ukryj przycisk Obserwuj w relacjach</string>
+    <string name="piko_hide_story_follow_button_desc">Ukrywa przycisk \"Obserwuj\" na górze relacji z kont, których nie obserwujesz</string>
     <!-- Download Media Section -->
     <string name="piko_category_download_media">Pobieranie multimediów</string>
     <string name="piko_category_downloads">Pobrane</string>
     <string name="piko_enable_download">Włącz pobieranie</string>
-    <string name="piko_feed_download_button">Przycisk pobierania w postach w aktualnościach</string>
-    <string name="piko_feed_download_button_desc">Dodaje ikonę pobierania obok przycisku zapisywania w postach w aktualnościach</string>
+    <string name="piko_download_buttons">Pokaż przyciski pobierania</string>
+    <string name="piko_download_buttons_feed">Posty na stronie głównej</string>
+    <string name="piko_download_buttons_stories">Relacje</string>
     <string name="piko_save_media_comment">Zapisz multimedia z komentarzy</string>
     <string name="piko_save_media_comment_desc">Dodaje przycisk do zapisywania multimediów z komentarzy pod postami i rolkami</string>
     <string name="piko_enable_direct_download">Włącz bezpośrednie pobieranie</string>
-    <string name="piko_enable_direct_download_desc">Pobiera przeglądane multimedia od razu bez wyświetlania okna opcji</string>
+    <string name="piko_enable_direct_download_desc">Dotknij przycisku pobierania przy postach, rolkach lub relacjach, aby zapisać bieżące multimedia. Jeśli multimediów jest więcej, przytrzymaj przycisk, aby zapisać je wszystkie</string>
+    <string name="piko_select_media_download">Wybierz multimedia do pobrania</string>
+    <string name="piko_download_photo_number">Zdjęcie %d</string>
+    <string name="piko_download_video_number">Film %d</string>
+    <string name="piko_download_select_all">Zaznacz wszystko</string>
+    <string name="piko_download_deselect_all">Odznacz wszystko</string>
+    <string name="piko_download_selected_count">Pobierz (%d)</string>
+    <string name="piko_download_copy_link_for">Kopiuj link: %s</string>
+    <string name="piko_media_link_unavailable">Link do multimediów jest niedostępny</string>
     <string name="piko_download_username_folder">Grupuj pobrania według nazwy użytkownika</string>
     <string name="piko_download_username_folder_desc">Tworzy osobne podfoldery dla każdego twórcy</string>
+    <string name="piko_prefer_dash_format">Preferuj format DASH</string>
+    <string name="piko_prefer_dash_format_desc">Pobiera filmy w najostrzejszej wersji DASH udostępnianej przez Instagram, do 1080p AV1, zamiast pliku 720p H.264</string>
+    <string name="piko_dash_audio_aac_lc">Konwertuj dźwięk DASH na AAC</string>
+    <string name="piko_dash_audio_aac_lc_desc">Ponownie koduje dźwięk xHE-AAC z plików DASH do formatu AAC-LC 192 kb/s, który odtworzy każdy odtwarzacz</string>
     <string name="piko_embed_download_metadata">Osadź metadane filmu</string>
     <string name="piko_embed_download_metadata_desc">Dodaje opis, link do posta, twórcę i datę przesłania do pobranych plików MP4</string>
+    <string name="piko_download_conflict_policy">Gdy multimedia już istnieją</string>
+    <string name="piko_download_conflict_policy_desc">Dotyczy plików o tej samej nazwie w wybranym folderze pobierania</string>
+    <string name="piko_download_conflict_rename">Zapisz pod nową nazwą</string>
+    <string name="piko_download_conflict_skip">Pomiń już pobrane multimedia</string>
+    <string name="piko_download_conflict_overwrite">Nadpisz istniejący plik</string>
+    <string name="piko_download_media_exists">Multimedia już istnieją</string>
+    <string name="piko_download_media_in_progress">Multimedia są już pobierane</string>
     <string name="piko_download_file_name_template">Format nazwy pliku</string>
     <string name="piko_download_file_name_template_invalid">Nieprawidłowa nazwa pliku</string>
     <string name="piko_download_file_name_insert_token">Wstaw %1$s</string>
@@ -199,6 +237,7 @@
     <string name="piko_download_file_name_token_shortcode">Shortcode</string>
     <string name="piko_download_file_name_token_upload_date">Data</string>
     <string name="piko_download_file_name_token_upload_time">Godzina</string>
+    <string name="piko_download_file_name_token_upload_timestamp">Znacznik czasu</string>
     <string name="piko_download_file_name_token_type">Typ</string>
     <string name="piko_download_file_name_token_carousel_index">Karuzela</string>
     <string name="piko_download_file_name_token_variant_suffix">Wariant</string>
@@ -219,8 +258,6 @@
     <string name="piko_download_set_path_failed">Nie udało się zapisać folderu pobierania</string>
     <string name="piko_download_choose_folder">Wybierz folder pobierania, aby kontynuować</string>
     <string name="piko_download_choose_folder_failed">Nie udało się otworzyć okna wyboru folderu</string>
-    <string name="piko_download_grant_permission">Wybierz folder pobierania, aby kontynuować</string>
-    <string name="piko_download_grant_permission_failed">Nie udało się otworzyć okna wyboru folderu</string>
     <string name="piko_download_with_external_downloader">Pobierz przez zewnętrzną aplikację</string>
     <string name="piko_external_downloader_package_name">Nazwa pakietu zewnętrznej aplikacji</string>
     <string name="piko_external_downloader_package_name_not_found">Nie znaleziono pakietu zewnętrznej aplikacji</string>
@@ -236,11 +273,6 @@
     <string name="piko_more_options">Więcej opcji</string>
     <!-- Navigation Section -->
     <string name="piko_category_hide_navigation_buttons">Ukrywanie przycisków nawigacji</string>
-    <string name="piko_hide_navigation_feed">Ukryj przycisk Aktualności</string>
-    <string name="piko_hide_navigation_reels">Ukryj przycisk Rolki</string>
-    <string name="piko_hide_navigation_direct">Ukryj przycisk Wiadomości</string>
-    <string name="piko_hide_navigation_search">Ukryj przycisk Szukaj</string>
-    <string name="piko_hide_navigation_create">Ukryj przycisk Utwórz</string>
     <string name="piko_category_navigation_tabs">Pasek nawigacji</string>
     <string name="piko_navigation_tabs_title">Pokaż i zmień kolejność zakładek</string>
     <string name="piko_navigation_tabs_summary">Wybierz widoczne dolne zakładki i przeciągnij, aby zmienić ich kolejność</string>
@@ -275,12 +307,12 @@
     <string name="piko_fail_no_file">Nie znaleziono pliku</string>
     <string name="piko_import_success">Zaimportowano pomyślnie</string>
     <string name="piko_import_fail">Błąd importu</string>
+    <string name="piko_file_picker_unavailable">Systemowa przeglądarka plików jest niedostępna</string>
     <string name="piko_restart_app">Wymagany restart aplikacji, aby zastosować zmiany</string>
     <string name="piko_close">Zamknij</string>
     <string name="piko_ok">OK</string>
     <string name="piko_reset">Zresetuj</string>
     <string name="piko_cancel">Anuluj</string>
-    <string name="piko_deleted">Usunięto</string>
     <string name="piko_debug">Debugowanie Piko</string>
     <string name="piko_debug_desc">Dodaje opcje debugowania dla niektórych komponentów do testów</string>
     <string name="piko_export_experiment_list">Eksportuj listę eksperymentów</string>
@@ -293,7 +325,6 @@
     <!-- Like Animation Section -->
     <string name="piko_change_like_animation">Zmień animację polubienia</string>
     <string name="piko_change_like_animation_desc">Zmienia standardową animację na jedną z dostępnych animacji polubienia</string>
-    <string name="piko_available_like_animation">Dostępne animacje polubienia</string>
     <string name="piko_like_animation_random">Losowa</string>
     <string name="piko_like_animation_preview">Podgląd animacji</string>
     <string name="piko_like_animation_preview_unavailable">Podgląd niedostępny</string>
@@ -312,18 +343,25 @@
     <string name="piko_tap_here">Dotknij tutaj</string>
     <!-- Action Bar Section -->
     <string name="piko_category_action_bar">Pasek akcji</string>
-    <string name="piko_action_bar_main_feed">Ikony paska akcji aktualności</string>
+    <string name="piko_action_bar_main_feed">Ikony paska akcji strony głównej</string>
     <string name="piko_action_bar_user_profile">Ikony paska akcji profilu użytkownika</string>
     <string name="piko_action_bar_chat">Ikony paska akcji czatu</string>
     <string name="piko_action_bar_chat_desc">Ikony paska akcji w wiadomościach prywatnych</string>
     <string name="piko_action_bar_inbox">Ikony paska akcji skrzynki odbiorczej</string>
+    <string name="piko_action_bar_button_audio_call_icon">Ikona połączenia głosowego</string>
+    <string name="piko_action_bar_button_video_call_icon">Ikona połączenia wideo</string>
     <string name="piko_action_bar_button_settings_icon">Ikona ustawień</string>
     <string name="piko_action_bar_button_ghost_mode_icon">Ikona trybu ducha</string>
+    <string name="piko_action_bar_button_jump_oldest_icon">Ikona przejścia do najstarszej wiadomości</string>
+    <string name="piko_jump_oldest_started">Przechodzenie do najstarszej wiadomości. Dotknij ponownie, aby anulować</string>
+    <string name="piko_jump_oldest_cancelled">Anulowano</string>
+    <string name="piko_jump_oldest_stopped">Przerwano oczekiwanie na starsze wiadomości. Dotknij ponownie, aby ponowić.</string>
     <string name="piko_action_bar_button_profile_info_icon">Ikona informacji o profilu</string>
     <string name="piko_action_bar_button_create_icon">Ikona tworzenia</string>
     <string name="piko_action_bar_button_notifications_icon">Ikona powiadomień</string>
-    <string name="piko_settings_on_action_bar">Ustawienia Piko na pasku akcji</string>
-    <string name="piko_settings_on_action_bar_desc">Przenosi skrót do ustawień Piko na pasek akcji aktualności</string>
+    <string name="piko_settings_search_hint">Szukaj</string>
+    <string name="piko_settings_search_clear">Wyczyść wyszukiwanie</string>
+    <string name="piko_settings_search_no_results">Brak wyników</string>
     <!-- Font Section -->
     <string name="piko_category_font">Czcionka</string>
     <string name="piko_custom_font">Własna czcionka</string>
@@ -343,6 +381,16 @@
     <string name="piko_category_rec_flags">Polecane flagi</string>
     <string name="piko_category_rec_flags_desc">Flagi programisty sugerowane przez społeczność</string>
     <string name="piko_rec_flags_read_error">Nie udało się odczytać pliku flag z pamięci podręcznej</string>
+    <string name="piko_rec_flags_modified">Zmodyfikowane flagi</string>
+    <string name="piko_rec_flags_category_stories">Relacje i wyróżnione relacje</string>
+    <string name="piko_rec_flags_category_reels">Rolki i filmy</string>
+    <string name="piko_rec_flags_category_feed">Strona główna i Eksploruj</string>
+    <string name="piko_rec_flags_category_messages">Wiadomości prywatne i notatki</string>
+    <string name="piko_rec_flags_category_profile">Profil i nawigacja</string>
+    <string name="piko_rec_flags_category_quality">Jakość i przesyłanie</string>
+    <string name="piko_rec_flags_category_other">Inne</string>
+    <string name="piko_rec_flags_download_hint">Pobierz zalecane flagi, aby je przeglądać i konfigurować. Dotknij opcji \"Odśwież flagi\", aby rozpocząć.</string>
+    <string name="piko_rec_flags_invalid_number">Wprowadź liczbę całkowitą z zakresu od -9223372036854775808 do 9223372036854775807</string>
     <string name="piko_rec_flags_no_file">Nie znaleziono pliku polecanych flag</string>
     <string name="piko_rec_flags_refresh_file">Odśwież flagi</string>
     <string name="piko_rec_flags_last_modified_at">Ostatnio zmodyfikowane: %s</string>
@@ -411,15 +459,10 @@
     <string name="piko_view_saved_instants">Wyświetl zapisane Instants</string>
     <string name="piko_instants_vault_empty">Brak zapisanych Instants. Otwórz kilka Instants z włączonym przechwytywaniem, a pojawią się w tym miejscu.</string>
     <string name="piko_instants_link_unavailable">Link do multimediów jest niedostępny.</string>
-    <string name="piko_instants_unknown_user">Nieznany</string>
-    <string name="piko_instants_delete_confirm">Usunąć ten zapisany Instant?</string>
-    <string name="piko_instants_clear_all">Wyczyść wszystko</string>
-    <string name="piko_instants_clear_all_confirm">Usunąć wszystkie zapisane Instants?</string>
+    <string name="piko_instants_delete_selected_confirm">Usunąć %d zaznaczonych elementów Instants?</string>
     <string name="piko_delete">Usuń</string>
     <string name="piko_instants_title">Instants</string>
     <string name="piko_search_username">Szukaj według nazwy użytkownika</string>
-    <string name="piko_instants_no_matches">Brak zapisanych Instants od tego użytkownika.</string>
-    <string name="piko_instants_unavailable">Niedostępne</string>
     <string name="piko_saved_on">Zapisano</string>
     <!-- Save & view deleted (unsent) direct messages -->
     <string name="piko_open_share_in_instagram">Otwórz w Instagramie</string>
@@ -440,7 +483,6 @@
     <string name="piko_someone">Ktoś</string>
     <string name="piko_deleted_messages_channel">Usunięte wiadomości</string>
     <string name="piko_deleted_messages_channel_desc">Powiadamia o cofnięciu wysłania otrzymanej wiadomości</string>
-    <string name="piko_media_label">[%s]</string>
     <string name="piko_media_deleted">[usunięto: %s]</string>
     <string name="piko_media_deleted_generic">[usunięto]</string>
     <string name="piko_media_unknown">multimedia</string>
@@ -455,4 +497,118 @@
     <string name="piko_media_like">polubienie</string>
     <string name="piko_media_link">link</string>
     <string name="piko_media_activity">aktywność</string>
+    <string name="piko_patch_theme">Motyw</string>
+    <string name="piko_patch_settings">Dodaj ustawienia</string>
+    <!-- Recommended flags -->
+    <string name="piko_rec_flag_73245_name" formatted="false">"Przycisk z czarnym tłem pojawiający się po kliknięciu elementu w Relacjach"</string>
+    <string name="piko_rec_flag_118413_name" formatted="false">"Edytuj relacje po ich opublikowaniu"</string>
+    <string name="piko_rec_flag_118413_desc" formatted="false">"Limit 15 minut na wprowadzenie zmian."</string>
+    <string name="piko_rec_flag_85030_name" formatted="false">"Nowe czcionki i animacje w relacjach"</string>
+    <string name="piko_rec_flag_125004_name" formatted="false">"Nowe czcionki Instagram Plus w relacjach"</string>
+    <string name="piko_rec_flag_125004_desc" formatted="false">"Upewnij się, że włączono opcję dostępu do funkcji Instagram Plus."</string>
+    <string name="piko_rec_flag_group_98ff88f597bb114beb0a03ab4b62049d_name" formatted="false">"Pokazuj promocje Instagram Plus"</string>
+    <string name="piko_rec_flag_group_98ff88f597bb114beb0a03ab4b62049d_desc" formatted="false">"Wyłącz, aby ukryć zachęty do przejścia na Instagram Plus oraz wskazówki wprowadzające"</string>
+    <string name="piko_rec_flag_group_65cac12ba706136a11ae80962a10fc13_name" formatted="false">"Wybrane funkcje i punkty wejścia Instagram Plus"</string>
+    <string name="piko_rec_flag_group_65cac12ba706136a11ae80962a10fc13_desc" formatted="false">"Wyłącz wybrane punkty wejścia Instagram Plus, darmowe podglądy, darmowe superpolubienia oraz renderowanie czcionek na czacie. Nie wyłącza to wszystkich funkcji Plus"</string>
+    <string name="piko_rec_flag_126445_name" formatted="false">"Nowy styl znacznika czasu w opublikowanych relacjach"</string>
+    <string name="piko_rec_flag_93316_name" formatted="false">"Publikuj relacje bezpośrednio w wyróżnionych"</string>
+    <string name="piko_rec_flag_93316_desc" formatted="false">"i dodaj naklejkę przekierowującą do wybranej wyróżnionej relacji"</string>
+    <string name="piko_rec_flag_105130_name" formatted="false">"Usuń siebie z czyjejś listy bliskich znajomych w relacjach"</string>
+    <string name="piko_rec_flag_105130_desc" formatted="false">"Kliknij ikonę bliskich znajomych, aby zobaczyć przycisk opuszczenia listy."</string>
+    <string name="piko_rec_flag_119043_name" formatted="false">"Wysyłaj relacje przez przytrzymanie przycisku samolotu w relacjach"</string>
+    <string name="piko_rec_flag_119728_name" formatted="false">"Nowy wygląd listy oglądających relacje"</string>
+    <string name="piko_rec_flag_58803_name" formatted="false">"Zastąp logo Instagrama napisem \"Dla Ciebie\" na stronie głównej."</string>
+    <string name="piko_rec_flag_103957_name" formatted="false">"Oglądanie rolek i filmów na stronie głównej z prędkością 2x"</string>
+    <string name="piko_rec_flag_103957_desc" formatted="false">"Przytrzymaj krawędzie ekranu, aby przyspieszyć odtwarzanie na stronie głównej."</string>
+    <string name="piko_rec_flag_109947_name" formatted="false">"Prędkość odtwarzania w menu rolek"</string>
+    <string name="piko_rec_flag_121815_name" formatted="false">"Szybkie menu odtwarzania w rolkach"</string>
+    <string name="piko_rec_flag_121815_desc" formatted="false">"Przytrzymanie otworzy szybkie menu odtwarzania."</string>
+    <string name="piko_rec_flag_82799_16_name" formatted="false">"Ukryj pasek przewijania w krótkich rolkach"</string>
+    <string name="piko_rec_flag_82799_16_desc" formatted="false">"Wyłącz i ustaw \"Minimalny czas trwania Rolki dla paska przewijania\" na 1, aby pokazywać pasek przewijania we wszystkich rolkach"</string>
+    <string name="piko_rec_flag_82799_41_name" formatted="false">"Minimalny czas trwania rolki dla paska przewijania"</string>
+    <string name="piko_rec_flag_82799_41_desc" formatted="false">"Ustaw na 1 i wyłącz \"Ukryj pasek przewijania w krótkich Rolkach\", aby pokazywać pasek przewijania we wszystkich rolkach"</string>
+    <string name="piko_rec_flag_98405_name" formatted="false">"Pokazuj podgląd tymczasowego zdjęcia/filmu w wiadomościach prywatnych"</string>
+    <string name="piko_rec_flag_46551_name" formatted="false">"Zezwalaj na powiększanie zdjęcia profilowego"</string>
+    <string name="piko_rec_flag_46551_desc" formatted="false">"Wyświetla nowy przycisk w sekcji ustawień \"Prywatność konta\", który pozwala użytkownikom włączyć lub wyłączyć przybliżanie ich zdjęcia profilowego."</string>
+    <string name="piko_rec_flag_93842_name" formatted="false">"Animacja powiększania w zakładce Eksploruj"</string>
+    <string name="piko_rec_flag_group_5a4e2edc04c51be62a40ece694ccdd82_name" formatted="false">"Przycisk \"Zapisane\" w zakładce Eksploruj"</string>
+    <string name="piko_rec_flag_124823_name" formatted="false">"Nowy wygląd zakładce Eksploruj"</string>
+    <string name="piko_rec_flag_77064_name" formatted="false">"Wyświetlaj nazwę użytkownika zamiast pseudonimu"</string>
+    <string name="piko_rec_flag_77064_desc" formatted="false">"w powiadomieniach i wiadomościach prywatnych"</string>
+    <string name="piko_rec_flag_91066_name" formatted="false">"Nowy wygląd ustawień powiadomień"</string>
+    <string name="piko_rec_flag_127260_name" formatted="false">"Wysyłaj szybkie reakcje emotek po przytrzymaniu przycisku polubienia relacji"</string>
+    <string name="piko_rec_flag_group_aa5ee1635c3d9669b9fc4b82e2cf511b_name" formatted="false">"Pokazuj punkty wejścia i podpowiedzi Meta AI"</string>
+    <string name="piko_rec_flag_group_aa5ee1635c3d9669b9fc4b82e2cf511b_desc" formatted="false">"Wyłącz, aby ukryć punkty wejścia i podpowiedzi Meta AI"</string>
+    <string name="piko_rec_flag_group_07c8e3234c2abbfa9b05d389252b1e48_name" formatted="false">"Ukryj dodatkowe podpowiedzi i punkty wejścia Meta AI"</string>
+    <string name="piko_rec_flag_group_07c8e3234c2abbfa9b05d389252b1e48_desc" formatted="false">"Włącz, aby ukryć dodatkowe wyskakujące okienka, ikony wyszukiwania, sugestie i cele udostępniania Meta AI"</string>
+    <string name="piko_rec_flag_136724_7_name" formatted="false">"Ukryj skrót udostępniania Muse"</string>
+    <string name="piko_rec_flag_136724_7_desc" formatted="false">"Nie ukrywa skrótu, gdy zainstalowana jest obsługiwana wersja aplikacji Muse"</string>
+    <string name="piko_rec_flag_66222_6_name" formatted="false">"Ukryj przyciski zainteresowania pod rolkami"</string>
+    <string name="piko_rec_flag_66222_6_desc" formatted="false">"Dotyczy przycisków \"Interesuje mnie to\" i \"Nie interesuje mnie to\" pod rolkami niebędącymi reklamami, bez wpływu na menu dodatkowe"</string>
+    <string name="piko_rec_flag_55922_2_name" formatted="false">"Opcja \"Interesuje mnie to\" w menu rolek"</string>
+    <string name="piko_rec_flag_55922_2_desc" formatted="false">"Wyłącz i ustaw \"Układ opcji zainteresowania w rolkach\" na 1, aby ukryć obie opcje (\"Interesuje mnie to\" i \"Nie interesuje mnie to\") w przeprojektowanym menu"</string>
+    <string name="piko_rec_flag_84236_0_name" formatted="false">"Układ opcji zainteresowania w rolkach"</string>
+    <string name="piko_rec_flag_84236_0_desc" formatted="false">"Ustaw na 1 i wyłącz \"Opcja 'Interesuje mnie to' w menu rolek\", aby ukryć obie opcje opinii w przeprojektowanym menu"</string>
+    <string name="piko_rec_flag_45023_0_name" formatted="false">"Udostępnianie kodem QR"</string>
+    <string name="piko_rec_flag_45023_0_desc" formatted="false">"Steruje również opcją kodu QR w menu posta"</string>
+    <string name="piko_rec_flag_97046_1_name" formatted="false">"Ukryj opcję \"Zobacz wszystkie remiksy\""</string>
+    <string name="piko_rec_flag_97046_1_desc" formatted="false">"Może również ukryć zgrupowane opcje remiksów w kwalifikujących się oryginalnych postach"</string>
+    <string name="piko_rec_flag_31983_10_name" formatted="false">"Ukryj opcję \"Przestań obserwować\" w menu posta"</string>
+    <string name="piko_rec_flag_40597_31_name" formatted="false">"Opcja \"Ulubione\" w menu posta"</string>
+    <string name="piko_rec_flag_72006_9_name" formatted="false">"Opcja pełnego ekranu w przeprojektowanym menu rolek"</string>
+    <string name="piko_rec_flag_83371_0_name" formatted="false">"Automatyczne przewijanie rolek"</string>
+    <string name="piko_rec_flag_83371_0_desc" formatted="false">"Wyłączenie ukrywa również opcję w menu, chyba że parametr clips_tab w ig_android_long_press jest ustawiony na auto_scroll"</string>
+    <string name="piko_rec_flag_94528_0_name" formatted="false">"Uproszczona nawigacja w skrzynce odbiorczej"</string>
+    <string name="piko_rec_flag_94528_0_desc" formatted="false">"Zastępuje pasek wyszukiwania ikoną lupy w nagłówku"</string>
+    <string name="piko_rec_flag_75196_8_name" formatted="false">"Sugestie w skrzynce odbiorczej"</string>
+    <string name="piko_rec_flag_75196_8_desc" formatted="false">"Ustaw na 9000000000, aby ukryć sugestie w skrzynce odbiorczej"</string>
+    <string name="piko_rec_flag_126024_12_name" formatted="false">"Pływający pasek zakładek"</string>
+    <string name="piko_rec_flag_126024_12_desc" formatted="false">"Niedostępne z układem nawigacji Homecoming"</string>
+    <string name="piko_rec_flag_126411_0_name" formatted="false">"Tło w kształcie pastylki dla wybranej zakładki"</string>
+    <string name="piko_rec_flag_33903_2_name" formatted="false">"Sugerowane konta na twoim profilu"</string>
+    <string name="piko_rec_flag_78393_3_name" formatted="false">"Ukryj strzałkę sortowania w rolkach na profilu"</string>
+    <string name="piko_rec_flag_group_3ea1d8e866d3fdcf760c8dcb56c0876b_name" formatted="false">"Układ od krawędzi do krawędzi"</string>
+    <string name="piko_rec_flag_group_3ea1d8e866d3fdcf760c8dcb56c0876b_desc" formatted="false">"Rozciąga ekran główny na obszar paska stanu i systemowego paska nawigacji w systemie Android 15 lub nowszym"</string>
+    <string name="piko_rec_flag_109730_name" formatted="false">"Dodaj Meta AI w menu rolek"</string>
+    <string name="piko_rec_flag_80654_name" formatted="false">"Dodaj pastylki Meta AI w opisach rolek"</string>
+    <string name="piko_rec_flag_111509_3_name" formatted="false">"Sugestie Meta AI w wyszukiwarce"</string>
+    <string name="piko_rec_flag_111509_3_desc" formatted="false">"Wyłącz, aby zamiast tego wyświetlać ostatnie wyszukiwania profili."</string>
+    <string name="piko_rec_flag_111509_9_name" formatted="false">"Zwijane ostatnie wyszukiwania"</string>
+    <string name="piko_rec_flag_111509_9_desc" formatted="false">"Wyłącz, aby zapobiec zwijaniu listy ostatnich wyszukiwań."</string>
+    <string name="piko_rec_flag_111509_21_name" formatted="false">"Poziome przewijanie ostatnich wyszukiwań"</string>
+    <string name="piko_rec_flag_111509_21_desc" formatted="false">"Wyłącz, aby wyświetlać ostatnie wyszukiwania w formie pionowej listy."</string>
+    <string name="piko_rec_flag_111509_25_name" formatted="false">"Karuzela podpowiedzi na pasku wyszukiwania"</string>
+    <string name="piko_rec_flag_111509_26_name" formatted="false">"Karuzela podpowiedzi na pasku wyszukiwania (dynamiczna)"</string>
+    <string name="piko_rec_flag_group_cb40d6eb2313fdb53365bfcf626bd4ab_name" formatted="false">"Sugerowani użytkownicy na pustym ekranie wyszukiwania"</string>
+    <string name="piko_rec_flag_group_cb40d6eb2313fdb53365bfcf626bd4ab_desc" formatted="false">"Wyłącz, aby ukryć sugerowane konta na ekranie wyszukiwania."</string>
+    <string name="piko_rec_flag_111509_17_name" formatted="false">"Maks. liczba wyświetlanych ostatnich wyszukiwań (Android)"</string>
+    <string name="piko_rec_flag_111509_17_desc" formatted="false">"Liczba ostatnich profili zachowywanych w historii wyszukiwania. Klasyczna wartość wynosiła 25."</string>
+    <string name="piko_rec_flag_111509_1_name" formatted="false">"Maks. liczba wyświetlanych ostatnich wyszukiwań"</string>
+    <string name="piko_rec_flag_111509_1_desc" formatted="false">"Liczba ostatnich profili zachowywanych w historii wyszukiwania. Klasyczna wartość wynosiła 25."</string>
+    <string name="piko_rec_flag_109125_name" formatted="false">"Ultra HDR zawsze włączony"</string>
+    <string name="piko_rec_flag_109125_desc" formatted="false">"Wyłącz, aby zapobiec wyświetlaniu zdjęć Ultra HDR z pełną jasnością."</string>
+    <string name="piko_rec_flag_68885_name" formatted="false">"Superbiel SDR w treściach HDR"</string>
+    <string name="piko_rec_flag_68885_desc" formatted="false">"Wyłącz, aby usunąć podbicie jasności w rolkach i filmach na ekranach obsługujących HDR."</string>
+    <string name="piko_rec_flag_65057_0_name" formatted="false">"Notatki na mapie"</string>
+    <string name="piko_rec_flag_65057_0_desc" formatted="false">"Wyłącz, aby usunąć funkcję mapy w notatkach (usuwa również mapę znajomych)."</string>
+    <string name="piko_rec_flag_75711_0_name" formatted="false">"Notatki GIF"</string>
+    <string name="piko_rec_flag_75711_0_desc" formatted="false">"Wyłącz, aby usunąć funkcję dodawania GIF-ów w notatkach."</string>
+    <string name="piko_rec_flag_121655_0_name" formatted="false">"Ankiety w notatkach"</string>
+    <string name="piko_rec_flag_121655_0_desc" formatted="false">"Włącz, aby uzyskać funkcję ankiet w notatkach (działanie nie jest gwarantowane)."</string>
+    <string name="piko_rec_flag_76757_0_name" formatted="false">"Funkcja Blends"</string>
+    <string name="piko_rec_flag_76757_0_desc" formatted="false">"Wyłącz, aby ukryć przycisk Blends w nagłówku obsługiwanych czatów."</string>
+    <string name="piko_rec_flag_140592_0_name" formatted="false">"Przycisk Muse na profilu"</string>
+    <string name="piko_rec_flag_140592_0_desc" formatted="false">"Wyłącz, aby ukryć przycisk Muse na pasku nawigacji swojego profilu"</string>
+    <string name="piko_rec_flag_58467_20_name" formatted="false">"Przycisk Threads na profilu"</string>
+    <string name="piko_rec_flag_58467_20_desc" formatted="false">"Wyłącz, aby usunąć przycisk Threads z profili."</string>
+    <string name="piko_rec_flag_83371_10_name" formatted="false">"Automatyczne przewijanie tylko dla bieżącej sesji"</string>
+    <string name="piko_rec_flag_83371_10_desc" formatted="false">"Wyłącz, aby zachować ostatni stan automatycznego przewijania, zamiast wyłączać je przy każdym zamknięciu Instagrama."</string>
+    <string name="piko_rec_flag_group_fc4d723f6d7a1bf010a75375b61a3934_name" formatted="false">"Przesyłanie w wysokiej jakości"</string>
+    <string name="piko_rec_flag_group_fc4d723f6d7a1bf010a75375b61a3934_desc" formatted="false">"Włącz, aby poprawić jakość przesyłanych materiałów."</string>
+    <string name="piko_rec_flag_group_d635982bb65ea560b908003df98afb8c_name" formatted="false">"Przesyłanie wideo z superrozdzielczością (uczenie maszynowe)"</string>
+    <string name="piko_rec_flag_group_d635982bb65ea560b908003df98afb8c_desc" formatted="false">"Włącz, aby skalować wszystkie filmy do 1080p (jeśli ich rozdzielczość jest niższa niż 1080p) za pomocą uczenia maszynowego na urządzeniu."</string>
+    <string name="piko_rec_flag_80122_1_name" formatted="false">"Kompresja WebP z galerii"</string>
+    <string name="piko_rec_flag_80122_1_desc" formatted="false">"Ustaw na 100, aby uzyskać najwyższą jakość WebP, gdy Instagram tworzy tymczasową kopię zdjęcia z galerii dla wiadomości prywatnej. To ustawienie działa tylko wtedy, gdy włączona jest flaga igd_webp_device_gallery."</string>
+    <string name="piko_rec_flag_55416_1_name" formatted="false">"Kompresja przesyłanych plików HEIC"</string>
+    <string name="piko_rec_flag_55416_1_desc" formatted="false">"Ustaw na 100, aby uzyskać najwyższą jakość przy zwykłym przesyłaniu plików HEIC."</string>
 </resources>

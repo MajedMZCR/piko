@@ -13,15 +13,16 @@ import app.crimera.patches.twitter.misc.shareMenu.hooks.shareMenuButtonInjection
 import app.crimera.patches.twitter.misc.shareMenu.hooks.shareMenuButtonOnClickHook
 import app.crimera.patches.twitter.utils.Constants.COMPATIBILITY_X
 import app.crimera.patches.twitter.utils.versionCheckPatch
-import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.patch
 
 @Suppress("unused")
 val nativeShareImagePatch =
-    bytecodePatch(
+    patch(
         name = "Share Tweet as Image",
         description = "Share tweets as rendered image. Requires X 11.0.0-release.0 or higher.",
     ) {
         compatibleWith(COMPATIBILITY_X)
+        category("Old patches")
         dependsOn(settingsPatch, entityGenerator, versionCheckPatch, shareMenuButtonOnClickHook, browseObjectPatch)
 
         execute {
